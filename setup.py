@@ -6,7 +6,7 @@ setup(
     description='A CLI app that shows you what is celebrated today',
     entry_points={
         'console_scripts': [
-            'wtday = main:main'
+            'wtday = wtday.main:main'
         ]
     },
     packages=find_packages(),
